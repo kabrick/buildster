@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kaizen.buildster">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/buildster_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainArea"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".BasicCalculator" />
+        <activity android:name=".Conversions" />
+        <activity android:name=".MaterialCalculator" />
+        <activity android:name=".MetricCalculator" />
+        <activity android:name=".conversions.AreaConversions" />
+        <activity android:name=".conversions.EnergyConversions" />
+        <activity android:name=".conversions.DensityConversions" />
+        <activity android:name=".conversions.PowerConversions" />
+        <activity android:name=".conversions.LiquidConversions" />
+        <activity android:name=".conversions.LengthConversion" />
+        <activity android:name=".conversions.SpeedConversions" />
+        <activity android:name=".conversions.TemperatureConversions" />
+        <activity android:name=".conversions.WeightConversions" />
+        <activity android:name=".conversions.VolumeConversions" />
+        <activity android:name=".metric.ArcMetric" />
+        <activity android:name=".metric.CircleMetric" />
+        <activity android:name=".metric.RectangleMetric" />
+        <activity android:name=".metric.ConeMetric" />
+        <activity android:name=".metric.CubeMetric" />
+        <activity android:name=".metric.CylinderMetric" />
+        <activity android:name=".ProjectDisplay" />
+        <activity android:name=".SubActivity" />
+        <activity android:name=".SupActivity" />
+        <activity android:name=".RoofActivity" />
+        <activity android:name=".FinishActivity" />
+        <activity android:name=".RateApp" />
+        <activity android:name=".cost"/>
+    </application>
+
+</manifest>
